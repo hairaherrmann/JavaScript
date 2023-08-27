@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+@font-face {
+    font-family: relogio ;
+    src: url("/images/DS-DIGIT.TTF");
+}
+
+body{
+    background: linear-gradient(pink, #eedae5, cyan);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#relogio{
+    display: flex;
+    gap: 30px;
+    
+}
+#relogio div{
+    padding: 40px;
+    border-radius: 100px;
+    background: white;
+}
+#relogio div span{
+    font-size: 100px;
+    font-family: relogio;
+}
