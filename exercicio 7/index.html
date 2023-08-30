@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Sistema Salário</title>
+</head>
+<body>
+    <style>
+       .modo-claro {
+            background: white;
+            color: #000000;
+        }
+
+        .modo-claro button {
+            background: #71fd6c;
+            color: #2b134b;
+        }
+
+        .modo-claro #central {
+            background: whitesmoke;
+        }
+
+        .modo-claro #central h1 {
+            color:#71fd6c;
+        }
+
+        .modo-claro #central form label {
+            color: black;
+        }
+
+        .modo-claro #central form input {
+            background: #a386fc;
+            color: #f0ffffde;
+            box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.337);
+        }
+
+        .modo-claro #resultado {
+            background: #a386fc;
+            color: #f0ffffde;
+            box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.337);
+        }
+
+        .modo-claro #sliquido {
+            color: black;
+        }
+
+        /* Estilo para o modo escuro */
+        .modo-escuro {
+            background: #000000;
+            color: #ffffff;
+        }
+
+        .modo-escuro button {
+            background: #00ff88;
+            color: #ffffff;
+        }
+
+        .modo-escuro #central {
+            background: #1a1a1a;
+        }
+
+        .modo-escuro #central h1 {
+            color:#00ff88;
+;
+        }
+
+        .modo-escuro #central form label {
+            color: #f0ffffde;
+        }
+
+        .modo-escuro #central form input {
+            background: #333333;
+            color: #ffffff;
+            box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.337);
+        }
+
+        .modo-escuro #resultado {
+            background: #333333;
+            color: #ffffff;
+            box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.337);
+        }
+
+        .modo-escuro #sliquido {
+            color: white;
+        }
+
+        
+    </style>
+
+    <div id="central">
+        <div id="entrada">
+        <h1>Sistema Salário</h1>
+            <form action="">
+                <label for="">Nome:</label>
+                <input type="text" minlength="1" id="nome">
+
+                <label for="">Salário Bruto</label>
+                <input type="number" minlength="1" id="sbruto"> 
+
+            </form> 
+            <div id="valor">
+                <p id="sliquido">Salário Líquido:</p>
+                <p id="resultado"></p>
+            </div>
+            <button id="calcular">Calcular</button>
+        </div>
+
+        </div>
+    
+        
+    </div>
+<script src="js/script.js"></script>
+</body>
+</html>

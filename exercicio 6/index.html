@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Sistema Escolar</title>
+</head>
+<body>
+    <div id="central">
+        <div id="entrada">
+        <h1>Sistema Escolar - 2.0</h1>
+            <form action="">
+                <label for="">Nome:</label>
+                <input type="text" minlength="1" id="nome">
+
+                <label for="">1 Unidade</label>
+                <input type="number" minlength="1" id="nota1">
+   
+                <label for="">2 Unidade</label>
+                <input type="number" minlength="1" id="nota2">
+
+                <label for="">3 Unidade</label>
+                <input type="number" minlength="1" id="nota3">  
+
+            </form> 
+            <button id="calcular">Calcular</button>
+        </div>
+
+            <div class="modal">
+                <div id="modal-content">
+                    <h2>Resultado:</h2>
+                    <h3 id="saudacao"></h3>
+                    <p id="resultado">00</p>
+                </div>
+                    <button id="fechar">Fechar</button>
+            </div>
+        </div>
+    
+        
+    </div>
+<script src="js/script.js"></script>
+</body>
+</html>

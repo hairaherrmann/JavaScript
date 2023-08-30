@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+button {
+    width: 100%;
+    padding: 16px 0px;
+    margin: center;
+    margin-top: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px rgba(0, 255, 136, 0.321);
+}
+
+/* Remover as setas dos inputs numéricos */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+#central {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.337);
+}
+
+#central h1 {
+    font-weight: 800;
+    margin: 0;
+}
+
+#central form {
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+}
+
+#central form label {
+    margin-top: 20px;
+}
+
+#central form input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 12pt;
+    outline: none;
+}
+
+#resultado {
+    width: 100%;
+    height: 46px;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    outline: none;
+
+}
+
+#sliquido {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
