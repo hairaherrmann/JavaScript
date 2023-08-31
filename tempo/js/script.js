@@ -1,5 +1,5 @@
 //variavel com acesso a minha chave da api
-const key = "7ff60b4fe1d729c40d64e36968f3090f"
+const key = ""
 //dom
 const inputCidade = document.querySelector(".input-cidade")
 const botaoBusca = document.querySelector(".botao-busca")
