@@ -1,0 +1,84 @@
+/* Reset de estilos para limpar as configurações padrão do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilizando o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilizando o contêiner de consulta */
+#consulta {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Estilizando o título da consulta */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Estilizando o rótulo do campo de entrada CEP */
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Estilizando o campo de entrada CEP */
+#cep {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+
+    /* Remover a seta de aumento/diminuição */
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+
+/* Estilizando o botão Consultar */
+#botao {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Estilizando o botão Consultar quando hover */
+#botao:hover {
+    background-color: #0056b3;
+}
+
+/* Estilizando o contêiner de resultado */
+#resultado {
+    text-align: justify;
+    margin-top: 20px;
+    padding: 30px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estilizando o texto do resultado */
+#resultado p {
+    font-size: 16px;
+}
+
